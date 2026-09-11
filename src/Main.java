@@ -9,5 +9,11 @@ public class Main {
         System.out.print("Masukkan NIM: ");
         int nim= Integer.parseInt(scanner.nextLine());
 
+        System.out.print("Masukkan umur: ");
+        int umur = Integer.parseInt(scanner.nextLine());
+
+        System.out.print("MAsukkan tinggi: ");
+        int tinggi = Integer.parseInt(scanner.nextLine());
+
     }
 }
