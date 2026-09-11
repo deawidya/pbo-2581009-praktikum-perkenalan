@@ -12,8 +12,9 @@ public class Main {
         System.out.print("Masukkan umur: ");
         int umur = Integer.parseInt(scanner.nextLine());
 
-        System.out.print("MAsukkan tinggi: ");
-        int tinggi = Integer.parseInt(scanner.nextLine());
+        System.out.print("Masukkan tinggi: ");
+        double tinggi = Double.parseDouble(scanner.nextLine());
 
+        System.out.println("Hallo! Nama saya " + nama + ", NIM: " + nim + ", Umur: " + umur + " Tahun, Tinggi: " + tinggi + " cm");
     }
 }
