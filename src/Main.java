@@ -18,6 +18,9 @@ public class Main {
         double tinggi = Double.parseDouble
                 (scanner.nextLine());
 
-        System.out.println("Hallo! Nama saya " + nama + ", NIM: " + nim + ", Umur: " + umur + " Tahun, Tinggi: " + tinggi + " cm");
+        System.out.print("Masukkan asal kota: ");
+        String asalkota = scanner.nextLine();
+
+        System.out.println("Hallo! Nama saya " + nama + ", NIM: " + nim + ", Umur: " + umur + " Tahun, Tinggi: " + tinggi + " cm " + "Berasal dari " + asalkota);
     }
 }
